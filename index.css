@@ -8,6 +8,7 @@ body {
     width: 550px;
     height: 550px;
     background: #1F2937;
+    margin: 0px auto;
 }
 
 .header {
@@ -30,5 +31,14 @@ body {
 
 .line {
     border-bottom: 1px solid #2F3E53;
+}
+
+.pass-one,
+.pass-two {
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
 }
 
