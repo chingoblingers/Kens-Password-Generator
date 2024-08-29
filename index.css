@@ -33,6 +33,11 @@ body {
     border-bottom: 1px solid #2F3E53;
 }
 
+.pass-box {
+    display: flex;
+    justify-content: space-around;
+}
+
 .pass-one,
 .pass-two {
     background: #273549;
