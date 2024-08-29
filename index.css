@@ -14,10 +14,16 @@ body {
 .header {
     font-weight: bolder;
     font-family: "Karla", sans-serif;
+
 }
 
 .header-child{
     color: #4ADF86;
+    margin: 0px auto;
+}
+
+p {
+    margin-top: 10px;
 }
 
 .btn {
@@ -26,16 +32,21 @@ body {
     border: none;
     border-radius: 5px;
     color: white;
+    margin-top: 51px;
+    margin-bottom: 0px;
 
 }
 
 .line {
     border-bottom: 1px solid #2F3E53;
+    width: 446px;
+    margin-top: 35px;
 }
 
 .pass-box {
     display: flex;
     justify-content: space-around;
+    margin-top: 35px;
 }
 
 .pass-one,
