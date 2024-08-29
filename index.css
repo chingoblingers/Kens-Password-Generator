@@ -41,6 +41,7 @@ p {
     border-bottom: 1px solid #2F3E53;
     width: 446px;
     margin-top: 35px;
+    margin: 0px auto;
 }
 
 .pass-box {
