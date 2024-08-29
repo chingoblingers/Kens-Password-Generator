@@ -1,0 +1,10 @@
+body {
+    background: black;
+    color: white;
+}
+
+.gen-body {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+}
