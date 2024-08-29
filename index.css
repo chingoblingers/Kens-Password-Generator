@@ -1,6 +1,7 @@
 body {
     background: black;
     color: white;
+    font-family: "Inter", sans-serif;
 }
 
 .gen-body {
@@ -16,4 +17,13 @@ body {
 
 .header-child{
     color: #4ADF86;
+}
+
+.btn {
+    background: #10B981;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
 }
