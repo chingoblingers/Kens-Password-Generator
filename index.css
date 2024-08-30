@@ -46,7 +46,7 @@ p {
 
 .pass-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 35px;
 }
 
@@ -57,5 +57,6 @@ p {
     height: 39px;
     border: none;
     border-radius: 5px;
+    margin: 0px 24px;
 }
 
