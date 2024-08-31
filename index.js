@@ -5,15 +5,21 @@ const passOne = document.getElementById("pass-one")
 const passTwo = document.getElementById("pass-two")
 const btn = document.getElementById("btn")
 
-btn.addEventListener("click", function(){
+function random() {
     const random = Math.floor(Math.random() * characters.length)
-    const randomTwo = Math.floor(Math.random() * characters.length)
-    
-    for (let i = random; i < 13; i++) {
+
+    for (let i = 0; i < 13; i++) {
         passOne.textContent += characters[random]
         console.log(characters[random])
     }
-    // for (let i = 0; i < 13; i++) {
-    //    console.log(characters[randomTwo])
-    // }
+
+}
+
+
+btn.addEventListener("click", function(){
+
+    for (let i = 0; i < characters.length; i++) {
+        passOne.textContent += random()
+    }
+
 })
