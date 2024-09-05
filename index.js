@@ -5,21 +5,20 @@ const passOne = document.getElementById("pass-one")
 const passTwo = document.getElementById("pass-two")
 const btn = document.getElementById("btn")
 
-function random() {
-    const random = Math.floor(Math.random() * characters.length)
-
+function GetRandomPassword() {
+    
+    let password = "";
+    
     for (let i = 0; i < 13; i++) {
-        passOne.textContent += characters[random]
-        console.log(characters[random])
+        let random = Math.floor(Math.random() * characters.length)
+        password += characters[random];
     }
 
+    return password;
 }
 
 
-btn.addEventListener("click", function(){
-
-    for (let i = 0; i < characters.length; i++) {
-        passOne.textContent += random()
-    }
-
+btn.addEventListener("click", function(){  
+    passOne.textContent = GetRandomPassword()
+    passTwo.textContent = GetRandomPassword()
 })
