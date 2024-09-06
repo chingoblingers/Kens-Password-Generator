@@ -5,10 +5,10 @@ body {
 }
 
 .gen-body {
-    width: 550px;
+    width: 498px;
     background: #1F2937;
     margin: 0px auto;
-    padding: 40px 0px 115px 52px;
+    padding: 115px 52px;
 }
 
 .header {
@@ -42,12 +42,14 @@ p {
 
 .line {
     border-bottom: 1px solid #2F3E53;
-    margin: 35px auto;
+    margin: 35px 0;
+    width: 100%;
 }
 
 .pass-box {
     display: flex;
     margin-top: 35px;
+    justify-content: space-between;
 }
 
 .pass-one,
